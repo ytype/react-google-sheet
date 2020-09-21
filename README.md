@@ -45,6 +45,12 @@ const key = "YOUR_SPREAD_SHEET_KEY"
 await sheetApi.select(key)
 ```
 
+Example : `src/App.tsx` google sheet data to table
+
+![](https://user-images.githubusercontent.com/59418226/93743116-6580fe80-fc2a-11ea-9caa-ee43a2718ce3.png)
+
+![](https://user-images.githubusercontent.com/59418226/93743149-76317480-fc2a-11ea-9211-b2c59d041f62.png)
+
 
 ## INSERT
 

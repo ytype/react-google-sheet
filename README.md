@@ -8,7 +8,9 @@ select, insert google sheet with axios
 
 `spreed sheet key` : https://docs.google.com/spreadsheets/d/`{key}`/edit
 
-`query` : must be url encoded (use [UrlEncode](https://www.convertstring.com/en/EncodeDecode/UrlEncode))
+`query`? : must be url encoded (use [UrlEncode](https://www.convertstring.com/en/EncodeDecode/UrlEncode)) 
+
+no query => select *
 
 `raw query` :
 
@@ -24,7 +26,7 @@ SELECT+A+WHERE+A+LIKE+%27%5bEND%5d%25%27
 
 ## INSERT
 
-copy `src/share.js` code and paste google sheet Tools > Script editor
+copy `src/share.gs` code and paste google sheet Tools > Script editor
 
 ![](https://www.benlcollins.com/wp-content/uploads/2016/04/script_editor_menu-1.jpg)
 
